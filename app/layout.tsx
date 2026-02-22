@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import TidioChat from "../components/TidioChat";
+import { GeistSans, GeistMono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
+// Fix duplicate imports - only once!
+const geistSans = GeistSans({
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  subsets: ["latin"]
 });
 
-const geistMono = Geist_Mono({
+const geistMono = GeistMono({
   variable: "--font-geist-mono",
-  subsets: ["latin"],
+  subsets: ["latin"]
 });
 
 export const metadata: Metadata = {
   title: "Jaan My Travel - Dubai",
-  description: "Flights • Hotels • Visa • Best Prices from DXB",
+  description: "UAE Visa, EK Flights, Luxury Hotels"
 };
 
 export default function RootLayout({
@@ -25,9 +25,27 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} font-sans`}>
         {children}
-        <TidioChat />
+        {/* TIDIO SCRIPT - CORRECT POSITION */}
+        <script 
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                function onTidioChatApiReady() {
+                  window.tidioChatApi?.show();
+                }
+                if (window.tidioChatApi) {
+                  onTidioChatApiReady();
+                } else {
+                  window.addEventListener('tidioChat-ready', onTidioChatApiReady);
+                }
+              })();
+            `
+          }}
+        />
+        {/* TIDIO EXTERNAL SCRIPT - YOUR PUBLIC KEY */}
+        <script src="//code.tidio.co/tmtd7vgrdjyakhoixqclboif0bfzguaa.js" async></script>
       </body>
     </html>
   );
