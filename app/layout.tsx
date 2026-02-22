@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono } from "../components/TidioChat ";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,23 +28,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <script src="//code.tidio.co/tmtd7vgrdjyakhoixqclboif0bfzguaa.js" async></script>
+         <TidioChat />  
       </body>
     </html>
   );
 
-
-
-  export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-      {/* TIDIO CHATBOT */}
-      <script src="//code.tidio.co/tmtd7vgrdjyakhoixqclboif0bfzguaa.js" async></script>
-    </html>
-  );
 }
