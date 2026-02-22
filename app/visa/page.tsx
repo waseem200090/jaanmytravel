@@ -6,13 +6,9 @@ export default function VisaPage() {
           🛂 Instant Visa Services
         </h1>
         <p style={{fontSize:"1.3rem",color:"#64748b",textAlign:"center",marginBottom:"50px"}}>
-  Dubai Processing • 24-72 Hours • Starting AED 99
-</p>
-
-        
+          Dubai Processing • 24-72 Hours • Starting AED 99
+        </p>
         <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(400px,1fr))",gap:"30px"}}>
-          
-          {/* UAE Visa */}
           <div style={{background:"white",borderRadius:"24px",padding:"40px",boxShadow:"0 20px 60px rgba(0,0,0,0.1)"}}>
             <div style={{width:"80px",height:"80px",background:"linear-gradient(135deg,#059669,#10b981)",borderRadius:"20px",margin:"0 auto 20px",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"24px",color:"white",fontWeight:"bold"}}>
               UAE
@@ -27,8 +23,6 @@ export default function VisaPage() {
               Apply Now → WhatsApp
             </a>
           </div>
-
-          {/* India Visa */}
           <div style={{background:"white",borderRadius:"24px",padding:"40px",boxShadow:"0 20px 60px rgba(0,0,0,0.1)"}}>
             <div style={{width:"80px",height:"80px",background:"linear-gradient(135deg,#ef4444,#dc2626)",borderRadius:"20px",margin:"0 auto 20px",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"20px",color:"white",fontWeight:"bold"}}>
               IND
@@ -39,21 +33,6 @@ export default function VisaPage() {
               <span style={{fontSize:"32px",fontWeight:"bold",color:"#10b981"}}>AED 149</span>
             </div>
             <a href="https://wa.me/971501234567?text=India eVisa AED 149" style={{display:"block",background:"linear-gradient(135deg,#ef4444,#dc2626)",color:"white",padding:"20px",borderRadius:"16px",textAlign:"center",fontWeight:600,fontSize:"18px",textDecoration:"none"}}>
-              Apply Now → WhatsApp
-            </a>
-          </div>
-
-          {/* Schengen Visa */}
-          <div style={{background:"white",borderRadius:"24px",padding:"40px",boxShadow:"0 20px 60px rgba(0,0,0,0.1)"}}>
-            <div style={{width:"80px",height:"80px",background:"linear-gradient(135deg,#3b82f6,#1d4ed8)",borderRadius:"20px",margin:"0 auto 20px",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"18px",color:"white",fontWeight:"bold"}}>
-              EU
-            </div>
-            <h2 style={{fontSize:"28px",fontWeight:700,textAlign:"center",marginBottom:"16px"}}>Schengen Visa</h2>
-            <p style={{color:"#64748b",textAlign:"center",marginBottom:"30px"}}>Europe 90 days • Full support</p>
-            <div style={{display:"flex",justifyContent:"center",alignItems:"center",marginBottom:"30px"}}>
-              <span style={{fontSize:"32px",fontWeight:"bold",color:"#10b981"}}>AED 299</span>
-            </div>
-            <a href="https://wa.me/971501234567?text=Schengen Visa AED 299" style={{display:"block",background:"linear-gradient(135deg,#3b82f6,#1d4ed8)",color:"white",padding:"20px",borderRadius:"16px",textAlign:"center",fontWeight:600,fontSize:"18px",textDecoration:"none"}}>
               Apply Now → WhatsApp
             </a>
           </div>
