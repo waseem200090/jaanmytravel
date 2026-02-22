@@ -1,27 +1,14 @@
 export default function VisaPage() {
   return (
-    <div style={{minHeight:"100vh",background:"linear-gradient(135deg,#f8fafc 0%,#e2e8f0 100%)",padding:"40px 20px"}}>
-      <div style={{maxWidth:"1400px",margin:"0 auto"}}>
-        <h1 style={{fontSize:"3.5rem",fontWeight:"bold",background:"linear-gradient(135deg,#1e293b,#475569)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",marginBottom:"30px",textAlign:"center"}}>
-          🛂 Instant Visa Services
-        </h1>
-        <p style={{fontSize:"1.3rem",color:"#64748b",textAlign:"center",marginBottom:"50px"}}>
-          Dubai Processing • 24-72 Hours • Starting AED 99
-        </p>
-        <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(400px,1fr))",gap:"30px"}}>
-          <div style={{background:"white",borderRadius:"24px",padding:"40px",boxShadow:"0 20px 60px rgba(0,0,0,0.1)"}}>
-            <div style={{width:"80px",height:"80px",background:"linear-gradient(135deg,#059669,#10b981)",borderRadius:"20px",margin:"0 auto 20px",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"24px",color:"white",fontWeight:"bold"}}>
-              UAE
-            </div>
-            <h2 style={{fontSize:"28px",fontWeight:700,textAlign:"center",marginBottom:"16px"}}>UAE Visa</h2>
-            <p style={{color:"#64748b",textAlign:"center",marginBottom:"30px"}}>30/60/90 days</p>
-            <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"30px"}}>
-              <span style={{fontSize:"32px",fontWeight:"bold",color:"#10b981"}}>AED 99</span>
-            </div>
-            <a href="https://wa.me/971501234567?text=UAE Visa AED 99" style={{display:"block",background:"linear-gradient(135deg,#10b981,#059669)",color:"white",padding:"20px",borderRadius:"16px",textAlign:"center",fontWeight:600,fontSize:"18px",textDecoration:"none"}}>
-              Apply Now → WhatsApp
-            </a>
-          </div>
+    <div style={{minHeight:"100vh", padding:"40px 20px", background:"#f8fafc"}}>
+      <div style={{maxWidth:"1200px", margin:"0 auto", textAlign:"center"}}>
+        <h1 style={{fontSize:"3rem", color:"#1e293b", marginBottom:"20px"}}>🛂 Instant Visa Services</h1>
+        <p style={{fontSize:"1.2rem", color:"#64748b", marginBottom:"40px"}}>Dubai Processing • Starting AED 99</p>
+        <div style={{background:"white", padding:"40px", borderRadius:"20px", boxShadow:"0 20px 40px rgba(0,0,0,0.1)"}}>
+          <h2 style={{fontSize:"2rem", color:"#059669", marginBottom:"20px"}}>UAE Visa - AED 99</h2>
+          <a href="https://wa.me/971501234567?text=UAE Visa AED 99" style={{display:"inline-block", background:"#10b981", color:"white", padding:"15px 30px", borderRadius:"12px", textDecoration:"none", fontWeight:"600"}}>
+            WhatsApp Now →
+          </a>
         </div>
       </div>
     </div>
