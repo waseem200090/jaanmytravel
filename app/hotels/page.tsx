@@ -21,7 +21,7 @@ export default function HotelsPage() {
               <span style={{fontSize:"36px",fontWeight:"bold",color:"#059669"}}>AED 4,999</span>
               <span style={{color:"#94a3b8",textDecoration:"line-through",fontSize:"20px"}}>AED 7,500</span>
             </div>
-            <a href="https://wa.me/971501234567?text=Burj Al Arab AED4999" style={{display:"block",background:"linear-gradient(135deg,#92400e,#d97706)",color:"white",padding:"20px",borderRadius:"16px",textAlign:"center",fontWeight:700,fontSize:"18px",textDecoration:"none"}}>
+            <a href="https://wa.me/971565669072?text=Burj Al Arab AED4999" style={{display:"block",background:"linear-gradient(135deg,#92400e,#d97706)",color:"white",padding:"20px",borderRadius:"16px",textAlign:"center",fontWeight:700,fontSize:"18px",textDecoration:"none"}}>
               Book Now → WhatsApp
             </a>
           </div>
@@ -40,7 +40,7 @@ export default function HotelsPage() {
               <span style={{fontSize:"36px",fontWeight:"bold",color:"#059669"}}>AED 3,499</span>
               <span style={{color:"#94a3b8",textDecoration:"line-through",fontSize:"20px"}}>AED 5,200</span>
             </div>
-            <a href="https://wa.me/971501234567?text=Atlantis AED3499" style={{display:"block",background:"linear-gradient(135deg,#1d4ed8,#3b82f6)",color:"white",padding:"20px",borderRadius:"16px",textAlign:"center",fontWeight:700,fontSize:"18px",textDecoration:"none"}}>
+            <a href="https://wa.me/971565669072?text=Atlantis AED3499" style={{display:"block",background:"linear-gradient(135deg,#1d4ed8,#3b82f6)",color:"white",padding:"20px",borderRadius:"16px",textAlign:"center",fontWeight:700,fontSize:"18px",textDecoration:"none"}}>
               Book Now → WhatsApp
             </a>
           </div>
