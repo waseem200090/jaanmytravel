@@ -7,7 +7,6 @@ export default function FlightsPage() {
         
         <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(450px,1fr))",gap:"30px"}}>
           
-          {/* EK510 DXB-BOM */}
           <div style={{background:"rgba(255,255,255,0.95)",borderRadius:"24px",padding:"40px",boxShadow:"0 25px 50px rgba(0,0,0,0.15)"}}>
             <div style={{display:"flex",alignItems:"center",gap:"15px",marginBottom:"20px"}}>
               <div style={{width:"60px",height:"60px",background:"#d97706",borderRadius:"15px",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:"bold",fontSize:"20px",color:"white"}}>
@@ -27,7 +26,6 @@ export default function FlightsPage() {
             </a>
           </div>
 
-          {/* EK512 DXB-DEL */}
           <div style={{background:"rgba(255,255,255,0.95)",borderRadius:"24px",padding:"40px",boxShadow:"0 25px 50px rgba(0,0,0,0.15)"}}>
             <div style={{display:"flex",alignItems:"center",gap:"15px",marginBottom:"20px"}}>
               <div style={{width:"60px",height:"60px",background:"#dc2626",borderRadius:"15px",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:"bold",fontSize:"20px",color:"white"}}>
