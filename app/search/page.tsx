@@ -3,7 +3,10 @@ import Link from 'next/link';
 export default function SearchResults({ searchParams }: { searchParams: { from?: string, to?: string } }) {
   const from = searchParams.from || 'DXB';
   const to = searchParams.to || 'BOM';
-  
+  <a href="/visa" style={{padding:"12px 24px",background:"rgba(255,255,255,0.3)",borderRadius:"12px",color:"white",textDecoration:"none",fontWeight:"500"}}>🛂 Visa</a>
+
+
+
   // REAL Amadeus-style flight data (Turbopack compatible)
   const flights = [
     { id: 1, airline: 'Emirates', flight: 'EK510', price: 'AED 1,450', duration: '2h 30m', stops: 'Non-stop', logo: 'EK' },
