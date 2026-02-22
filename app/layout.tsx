@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";  // ← FONTS (NOT TidioChat!)
-import TidioChat from "../components/TidioChat";      // ← TIDIO COMPONENT (SEPARATE!)
+import { Geist, Geist_Mono } from "next/font/google";
+import TidioChat from "../components/TidioChat";
 import "./globals.css";
 
 const geistSans = Geist({
