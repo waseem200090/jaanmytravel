@@ -6,8 +6,9 @@ export default function VisaPage() {
           🛂 Instant Visa Services
         </h1>
         <p style={{fontSize:"1.3rem",color:"#64748b",textAlign:"center",marginBottom:"50px"}}>
-          Dubai Processing • 24-72 Hours • Starting AED 99
-        </p>
+  Dubai Processing • 24-72 Hours • Starting AED 99
+</p>
+
         
         <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(400px,1fr))",gap:"30px"}}>
           
@@ -34,7 +35,7 @@ export default function VisaPage() {
             </div>
             <h2 style={{fontSize:"28px",fontWeight:700,textAlign:"center",marginBottom:"16px"}}>India e-Visa</h2>
             <p style={{color:"#64748b",textAlign:"center",marginBottom:"30px"}}>30 days • Instant approval</p>
-            <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"30px"}}>
+            <div style={{display:"flex",justifyContent:"center",alignItems:"center",marginBottom:"30px"}}>
               <span style={{fontSize:"32px",fontWeight:"bold",color:"#10b981"}}>AED 149</span>
             </div>
             <a href="https://wa.me/971501234567?text=India eVisa AED 149" style={{display:"block",background:"linear-gradient(135deg,#ef4444,#dc2626)",color:"white",padding:"20px",borderRadius:"16px",textAlign:"center",fontWeight:600,fontSize:"18px",textDecoration:"none"}}>
@@ -49,7 +50,7 @@ export default function VisaPage() {
             </div>
             <h2 style={{fontSize:"28px",fontWeight:700,textAlign:"center",marginBottom:"16px"}}>Schengen Visa</h2>
             <p style={{color:"#64748b",textAlign:"center",marginBottom:"30px"}}>Europe 90 days • Full support</p>
-            <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"30px"}}>
+            <div style={{display:"flex",justifyContent:"center",alignItems:"center",marginBottom:"30px"}}>
               <span style={{fontSize:"32px",fontWeight:"bold",color:"#10b981"}}>AED 299</span>
             </div>
             <a href="https://wa.me/971501234567?text=Schengen Visa AED 299" style={{display:"block",background:"linear-gradient(135deg,#3b82f6,#1d4ed8)",color:"white",padding:"20px",borderRadius:"16px",textAlign:"center",fontWeight:600,fontSize:"18px",textDecoration:"none"}}>
