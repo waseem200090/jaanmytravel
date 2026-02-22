@@ -1,120 +1,49 @@
 export default function HotelsPage() {
   return (
-    <div style={{ 
-      minHeight: "100vh", 
-      background: "linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)",
-      padding: "40px 20px"
-    }}>
-      <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
+    <div style={{minHeight:"100vh",background:"linear-gradient(135deg,#92400e 0%,#d97706 50%,#f59e0b 100%)",padding:"40px 20px",color:"white"}}>
+      <div style={{maxWidth:"1400px",margin:"0 auto"}}>
+        <h1 style={{fontSize:"3.5rem",fontWeight:"bold",textAlign:"center",marginBottom:"20px"}}>🏨 Dubai Luxury Hotels</h1>
+        <p style={{fontSize:"1.3rem",textAlign:"center",marginBottom:"50px"}}>Best Prices • Free Cancellation • DXB Location</p>
         
-        {/* Header */}
-        <div style={{ textAlign: "center", marginBottom: "50px" }}>
-          <h1 style={{ 
-            fontSize: "3.5rem", 
-            fontWeight: "bold", 
-            background: "linear-gradient(135deg, #1e293b, #475569)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent"
-          }}>
-            🏨 Luxury Hotels in Dubai
-          </h1>
-          <p style={{ fontSize: "1.3rem", color: "#64748b", marginTop: "10px" }}>
-            5-Star stays from AED 299/night
-          </p>
-        </div>
-
-        {/* Hotel Cards */}
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))", gap: "30px" }}>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(450px,1fr))",gap:"30px"}}>
           
-          {/* Hotel 1 */}
-          <div style={{ 
-            background: "white", 
-            borderRadius: "24px", 
-            overflow: "hidden", 
-            boxShadow: "0 20px 60px rgba(0,0,0,0.1)",
-            border: "1px solid #f1f5f9"
-          }}>
-            <div style={{ height: "200px", background: "linear-gradient(45deg, #667eea, #764ba2)", position: "relative" }}>
-              <div style={{ 
-                position: "absolute", 
-                top: "20px", 
-                right: "20px", 
-                background: "#10b981", 
-                color: "white", 
-                padding: "8px 16px", 
-                borderRadius: "20px", 
-                fontSize: "14px", 
-                fontWeight: 600 
-              }}>
-                4.9 ⭐
+          {/* Burj Al Arab */}
+          <div style={{background:"rgba(255,255,255,0.95)",borderRadius:"24px",padding:"40px",boxShadow:"0 25px 50px rgba(0,0,0,0.15)"}}>
+            <img src="https://images.unsplash.com/photo-1571896349840-0d711bcbd46b?w=400&h=250&fit=crop" alt="Burj Al Arab" style={{width:"100%",height:"250px",objectFit:"cover",borderRadius:"16px",marginBottom:"20px"}}/>
+            <div style={{display:"flex",alignItems:"center",gap:"12px",marginBottom:"15px"}}>
+              <div style={{width:"40px",height:"40px",background:"#f59e0b",borderRadius:"10px",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"16px",fontWeight:"bold",color:"white"}}>
+                5⭐
               </div>
+              <h2 style={{fontSize:"26px",fontWeight:700,color:"#1e293b",margin:0}}>Burj Al Arab</h2>
             </div>
-            <div style={{ padding: "30px" }}>
-              <h2 style={{ fontSize: "24px", fontWeight: 700, marginBottom: "8px" }}>
-                Burj Al Arab
-              </h2>
-              <p style={{ color: "#64748b", marginBottom: "20px" }}>
-                Jumeirah Beach • 5 Star • Pool + Spa
-              </p>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "24px" }}>
-                <span style={{ fontSize: "28px", fontWeight: "bold", color: "#10b981" }}>
-                  AED 1,299
-                </span>
-                <span style={{ color: "#94a3b8", textDecoration: "line-through", fontSize: "18px" }}>
-                  AED 1,899
-                </span>
-              </div>
-              <a href="#" style={{
-                display: "block",
-                background: "linear-gradient(135deg, #10b981, #059669)",
-                color: "white",
-                padding: "16px",
-                borderRadius: "16px",
-                textAlign: "center",
-                fontWeight: 600,
-                textDecoration: "none"
-              }}>
-                Book Now →
-              </a>
+            <p style={{color:"#64748b",marginBottom:"25px"}}>Jumeirah Beach • Ocean View • 5 Nights</p>
+            <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"30px"}}>
+              <span style={{fontSize:"36px",fontWeight:"bold",color:"#059669"}}>AED 4,999</span>
+              <span style={{color:"#94a3b8",textDecoration:"line-through",fontSize:"20px"}}>AED 7,500</span>
             </div>
+            <a href="https://wa.me/971501234567?text=Burj Al Arab AED4999" style={{display:"block",background:"linear-gradient(135deg,#92400e,#d97706)",color:"white",padding:"20px",borderRadius:"16px",textAlign:"center",fontWeight:700,fontSize:"18px",textDecoration:"none"}}>
+              Book Now → WhatsApp
+            </a>
           </div>
 
-          {/* Hotel 2 */}
-          <div style={{ 
-            background: "white", 
-            borderRadius: "24px", 
-            overflow: "hidden", 
-            boxShadow: "0 20px 60px rgba(0,0,0,0.1)",
-            border: "1px solid #f1f5f9"
-          }}>
-            <div style={{ height: "200px", background: "linear-gradient(45deg, #f59e0b, #d97706)" }}></div>
-            <div style={{ padding: "30px" }}>
-              <h2 style={{ fontSize: "24px", fontWeight: 700, marginBottom: "8px" }}>
-                Atlantis The Palm
-              </h2>
-              <p style={{ color: "#64748b", marginBottom: "20px" }}>
-                Palm Jumeirah • Aquaventure Waterpark
-              </p>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "24px" }}>
-                <span style={{ fontSize: "28px", fontWeight: "bold", color: "#10b981" }}>
-                  AED 899
-                </span>
+          {/* Atlantis */}
+          <div style={{background:"rgba(255,255,255,0.95)",borderRadius:"24px",padding:"40px",boxShadow:"0 25px 50px rgba(0,0,0,0.15)"}}>
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=400&h=250&fit=crop" alt="Atlantis" style={{width:"100%",height:"250px",objectFit:"cover",borderRadius:"16px",marginBottom:"20px"}}/>
+            <div style={{display:"flex",alignItems:"center",gap:"12px",marginBottom:"15px"}}>
+              <div style={{width:"40px",height:"40px",background:"#3b82f6",borderRadius:"10px",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"16px",fontWeight:"bold",color:"white"}}>
+                5⭐
               </div>
-              <a href="#" style={{
-                display: "block",
-                background: "linear-gradient(135deg, #10b981, #059669)",
-                color: "white",
-                padding: "16px",
-                borderRadius: "16px",
-                textAlign: "center",
-                fontWeight: 600,
-                textDecoration: "none"
-              }}>
-                Book Now →
-              </a>
+              <h2 style={{fontSize:"26px",fontWeight:700,color:"#1e293b",margin:0}}>Atlantis The Palm</h2>
             </div>
+            <p style={{color:"#64748b",marginBottom:"25px"}}>Palm Jumeirah • Aquaventure • 5 Nights</p>
+            <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"30px"}}>
+              <span style={{fontSize:"36px",fontWeight:"bold",color:"#059669"}}>AED 3,499</span>
+              <span style={{color:"#94a3b8",textDecoration:"line-through",fontSize:"20px"}}>AED 5,200</span>
+            </div>
+            <a href="https://wa.me/971501234567?text=Atlantis AED3499" style={{display:"block",background:"linear-gradient(135deg,#1d4ed8,#3b82f6)",color:"white",padding:"20px",borderRadius:"16px",textAlign:"center",fontWeight:700,fontSize:"18px",textDecoration:"none"}}>
+              Book Now → WhatsApp
+            </a>
           </div>
-
         </div>
       </div>
     </div>
